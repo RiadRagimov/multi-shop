@@ -1,0 +1,129 @@
+
+
+.slider .slick-track {
+    display: flex;
+}
+.slider .slick-list {
+    overflow: hidden;
+}
+
+.slider .slider_item img {
+    width: 100%;
+}
+.slider_item {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: white;
+}
+
+.slider .slick-slide {
+    margin: 0 15px;
+    display: flex;
+}
+/*feature*/
+.featured_product_slide .slick-track {
+    display: flex;
+}
+.featured_product_slide .slick-list {
+    overflow: hidden;
+}
+
+
+.featured_product_slide .featured_card {
+    width: 100%;
+    
+}
+
+.featured_product_slide .slick-slide {
+    
+    display: flex;
+}
+
+.fashion {
+    position: relative;
+}
+.fashion .slick-slide {
+    display: flex;
+    position: relative;
+}
+.fashion .slick-track {
+    height: 100%;
+    width: 100%;
+}
+.fashion .slick-list {
+    overflow: hidden;
+    height: 100%;
+    
+}
+.fashion .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15px;
+    
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.fashion .slick-dots li{
+    list-style: none;
+}
+.fashion .slick-dots button{
+    font-size: 0;
+    width: 16.6px;
+    height: 16.6px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin: 0 3px 12px;
+    transition: .5s;
+    
+}
+.fashion .slick-dots li.slick-active button{
+    background-color: white;
+    width: 31.6px;
+    
+}
+
+
+.img_slider .slick-track {
+    display: flex;
+}
+.img_slider .slick-list{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.img_slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    margin: -16px 0px 0px 0px;
+    font-size: 0;
+    width: 16px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.img_slider .slick-arrow.slick-prev {
+    left: 25px;
+    background: url(/assets/images/4725611-200.png) 0 0 / 100% no-repeat;
+    border: none;
+}
+.img_slider .slick-arrow.slick-next {
+    right: 25px;
+    background: url(/assets/images/4725611-200\ \(1\).png) 0 0 / 100% no-repeat;
+    border: none;
+}
+
+.dd-menu {
+    display: block;
+}
+

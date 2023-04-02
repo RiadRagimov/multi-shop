@@ -1,0 +1,420 @@
+@media (max-width: 991px) {
+    .about{
+        display: none;
+    }
+    .one_header {
+        justify-content: center;
+    }
+    .myacount {
+        justify-content: center;
+    }
+    
+    .myacount_icon {
+        display: flex;
+    }
+
+
+    .two_header {
+        background-color: #3D464D;
+    }
+
+    .multi_logo {
+        background-color: #ffffff;
+        color: #3D464D;
+    }
+
+    .shop_logo {
+        color: #ffffff;
+    }
+
+    .input_div {
+        display: none;
+    }
+    .number_text {
+        display: none;
+    }
+
+    .container_tree{
+        display: none;
+    }
+    .hamburger_multi_shop {
+        display: flex;
+    }
+
+
+    /*header*/
+
+
+
+    .container_fashion {
+        flex-direction: column;
+
+    }
+    .fashion {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .fashion_text {
+        width: 100%;
+    }
+    .fashion_text h1 {
+        font-size: calc(1.475rem + 2.7vw);
+    }
+    .fashion_text p {
+        width: 55%;
+    }
+    .special_offer {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .special_offer_card {
+        position: relative;
+        height: 50%;
+        margin-bottom: 30px;
+    }
+    .special_text{
+        width: 100%;
+    }
+    .special_text p{
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        
+        font-size: calc(1.3rem + .6vw);
+    }
+
+
+
+    /*icon card*/
+
+
+    .shop_icon{
+        width: 50%;
+    }
+
+
+
+
+    .categories_card {
+        width: 33.333333%;
+    }
+    .card_category_name {
+        font-size: 13px;
+    }
+    .featured_card {
+        width: 33.33333%;
+    }
+
+
+
+
+
+
+    /*footer*/
+
+
+
+
+    .footer_container{
+        flex-direction: column;
+    }
+    .get_in_touch {
+        width: 100%;
+        max-width: 100%;
+    }
+    .footer_down_contain::after {
+        max-width: 96%;
+    }
+
+
+
+
+    /*footer*/
+
+
+
+
+    /*index two*/
+
+
+
+    .filter_price {
+        max-width: 33.33333%;
+    }
+
+    .shop_list_product {
+        width: 100%;
+        max-width: 66.66667%;
+    }
+    .shop_list_product_item .featured_card {
+        width: 50%;
+    }
+
+
+
+    /*index tree*/
+
+
+    .shop_detail {
+        flex-direction: column;
+    }
+    .shop_detail_slider {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+    .shop_detail_product_name {
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /*index for*/
+
+    .shoping_cart {
+        flex-direction: column;
+    }
+    .shoping_product {
+        max-width: 100%;
+        overflow-x: auto;
+        padding: 0;
+    }
+    .cart_summary {
+        max-width: 100%;
+        padding: 0;
+    }
+
+
+
+    /*contact*/
+    .contact {
+        flex-direction: column;
+    }
+    .contact_form {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .contact_map {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    
+
+    /*adress*/
+
+
+
+
+    .adress_contain {
+        flex-direction: column;
+    }
+    .adress_forum {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .order_total {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 767px){
+    .shop_icon {
+        width: 100%;
+    }
+    .categories_card {
+        width: 50%;
+    }
+    .featured_card {
+        width: 50%;
+    }
+    .special_offer_down {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    .special_offer_down .special_offer_card:nth-child(1) {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 15px 0;
+    }
+    .special_offer_down .special_offer_card:nth-child(2) {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 15px 0;
+    }
+
+
+
+    /*footer*/
+    .footer_link {
+        flex-direction: column;
+    }
+
+    .newsletter_link {
+        width: 100%;
+    }
+    .quick_shop {
+        width: 100%;
+    }
+
+    .footer_down_contain {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .footer_down_text p{
+        margin-bottom: 1rem;
+    }
+
+    /*footer*/
+
+
+    /*index two*/
+
+    
+
+
+
+    .shop_list {
+        flex-direction: column;
+    }
+    .filter_price {
+        max-width: 100%;
+    }
+    .shop_list_product {
+        max-width: 100%;
+    }
+
+
+    /*index tree*/
+
+
+
+
+    .reviews_content {
+        flex-direction: column;
+    }
+    .reviews_item {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2.5rem;
+    }
+    .reviews_email {
+        width: 100%;
+        padding: 0;
+    }
+    .information_ul_grup {
+        flex-direction: column;
+    }
+    .information_ul_grup ul {
+        width: 100%;
+    }
+    .adress_input_form {
+        max-width: 100%;
+    }
+
+}
+
+
+
+
+@media (max-width: 575px) {
+    .categories_card {
+        width: 100%;
+    }
+    .card_category_name {
+        font-size: 1rem;
+    }
+    .featured_card {
+        width: 100%;
+    }
+
+    /*index two*/
+
+
+    .shop_list_product_item .featured_card {
+        width: 100%;
+    }
+
+    .discription_link {
+        flex-wrap: wrap;
+    }
+
+
+
+
+    /*index tree*/
+
+
+    .td_counter {
+        margin-top: 19px;
+    }
+    
+
+
+
+
+
+
+
+
+    
+}
+
+@media(max-width: 375px) {
+    .categories_text_logo h2 span {
+        font-size: 1.5rem;
+    }
+    .shop_detail_scetcik {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .scetcik_button {
+        margin: 0;
+    }
+    .add_tocart {
+        
+        margin-top: 10px;
+    }
+} 
+
+@media(max-width: 355px) {
+
+    .logo_span {
+        width: 183px;
+    }
+    .multi_logo {
+        font-size: 25px;
+        height: 33px;
+    }
+    .shop_logo {
+        font-size: 25px;
+        height: 33px;
+    }
+    .myacount{
+        flex-direction: column;
+    }
+
+    .myacount_icon a{
+        margin-left: 10px;
+    }
+
+
+
+    .map_email p {
+        font-size: 0.8rem;
+    }
+}
